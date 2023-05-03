@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
     </head>
     <body>
-        <form action="" method="POST">
-              <input type="text" name="email" placeholder="Email" />
-              <input type="password" name="password" placeholder="Password" />
-              <div class="h-captcha" data-sitekey="aed90387-e9c8-4558-8e70-f992607c5faf"></div>
-              <br />
-              <input type="submit" value="Submit" />
-        </form>
+        {% include navigation.html %}
         {{ content }}
     </body>
-</html>
-<html>
-  <body>
-  </body>
 </html>
