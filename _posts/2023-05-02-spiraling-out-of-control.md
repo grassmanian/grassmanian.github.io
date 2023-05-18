@@ -37,7 +37,7 @@ $$y = \phi x - \phi y$$
 $$y = \frac{\phi^2}{1+\phi}$$
 which allows us to conclude $y=1$, and thus $x = \phi$, so our eigenvector $u = (\phi, 1)$ corresponds to the eigenvalue $\phi$. Following an identical process for our second eigenvalue ($-\phi^{-1}$), we have a second eigenvector $v = (-\phi^{-1}, 1)$.
 
-Eigenbasis (i.e. a basis of eigenvectors; showing this does in fact form a basis is beyond the scope of this post)in hand, we should be able to write our first Fibonacci number (or vector in this case) as a linear combination of the eigenbasis. Verily, $(1, 0) = \frac{u}{\sqrt{5}} - \frac{v}{\sqrt{5}}$. 
+Eigenbasis in hand, (i.e. a basis of eigenvectors; showing this does in fact form a basis is beyond the scope of this post) we should be able to write our first Fibonacci number (or vector in this case) as a linear combination of the eigenbasis. Verily, $(1, 0) = \frac{u}{\sqrt{5}} - \frac{v}{\sqrt{5}}$. 
 
 Therefore,
 
